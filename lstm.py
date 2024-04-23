@@ -15,7 +15,7 @@ from sklearn.preprocessing import MinMaxScaler
 import yfinance as yf
 
 # Load the model
-model = load_model('/path/to/best_model.h5')
+model = load_model('best_model.h5')
 
 scaler = MinMaxScaler(feature_range=(0, 1))
 
